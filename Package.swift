@@ -8,6 +8,6 @@ let package = Package(
         .library(name: "PreviewController", targets: ["PreviewController"]),
     ],
     targets: [
-        .target(name: "PreviewController", swiftSettings: [.unsafeFlags(["-strict-concurrency=complete"])]),
+        .target(name: "PreviewController", swiftSettings: [.enableExperimentalFeature("StrictConcurrency=complete")]),
     ]
 )
