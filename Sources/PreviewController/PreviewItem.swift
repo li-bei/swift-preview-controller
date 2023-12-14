@@ -1,11 +1,11 @@
 import QuickLook
 
 public final class PreviewItem: NSObject {
-    public let url: URL
+    public var url: URL
     
-    public let title: String
+    public var title: String?
     
-    public init(url: URL, title: String) {
+    public init(url: URL, title: String? = nil) {
         self.url = url
         self.title = title
     }
