@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "PreviewController",
+    name: "swift-preview-controller",
     products: [
         .library(name: "PreviewController", targets: ["PreviewController"]),
     ],
